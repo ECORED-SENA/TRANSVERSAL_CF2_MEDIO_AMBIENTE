@@ -1,0 +1,138 @@
+//Colores base del material de formación
+$brand-color-dark: #EC407A;
+$text-color-dark:#fff;
+
+
+//Esto lo puede cambiar poe el color que quiera q sugiera el tema. (sE QUITA EL lighten)
+$brand-color-light: #BA68C8;
+$text-color-light: $primary;
+$brand-color-secondary: #028AD1;
+
+$brand-color-1: #EC407A;
+$brand-color-2: #BA68C8;
+$brand-color-3: #028AD1;
+$brand-color-4: #4FC3F7;
+$brand-color-5: #FFECB3;
+$brand-color-6: #4D1C0D;
+
+h1 {
+    color:  #000;
+}
+h2,h3 {
+    color: #EC407A;
+    font-weight: bold !important;
+}
+h4 {
+    color:  #BA68C8;
+    font-weight: bold !important;
+}
+
+.bg-color-4{
+
+    background-color: #B7CFDF;
+}
+.bg-azul-oscuro{
+    background-color: #104A71;
+}
+.bg-azul-verde{
+    background-color: #8AEAFE;
+}
+.bg-azul-claro{
+    background-color: #B8E3FE;
+}
+.text-azul-oscuro{
+    color: #00223D !important;
+}
+.bg-color-5{
+
+    background-color: $brand-color-5;
+}
+.bg_tema_3{
+    background: url("/assets/images/pages/tema-3/tema-3-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-piramide{
+    background: url("/assets/images/pages/tema-1/tema-1-1.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bg-1{
+    background-color: #9DE0E1;
+}
+.bg-2{
+    background-color: #00C2F1;
+}
+.bg-3{
+    background-color: #FFF25B;
+}
+.bg-4{
+    background-color: #FFC058;
+}
+.bg-5{
+    background-color: #FF632B;
+}
+.bt-azul{
+    border-top: 2px #76B6B6 solid;
+}
+.tabla-1 tbody tr td{
+    padding: 0px 20px 0px 20px;
+}
+.rounded-50{
+    border-radius: 50px;
+}
+.text-transparent{
+    color: transparent !important;
+}
+.bg_azul_2{
+    background-color: #00B2D0;
+}
+.bg-verde-oscuro{
+    background-color: #00AA56;
+}
+.text-color-1 {
+    color: $brand-color-1 !important;
+}
+
+.text-color-2 {
+    color: $brand-color-2 !important;
+}
+
+.text-color-3 {
+    color: $brand-color-3 !important;
+}
+
+.text-color-4 {
+    color: $brand-color-4 !important;
+}
+
+.text-color-5 {
+    color: $brand-color-5 !important;
+}
+
+.text-color-6 {
+    color: $brand-color-6 !important;
+}
+
+.bg-purple-transparent{
+    background-color: #EAEAEA;
+}
+p{
+    color: $brand-color-6 !important;
+}
+li::marker {
+    color: #864b05 !important;
+}
+.cont-1{
+    background-color: #EAEAEA;
+    border-top: 1px $brand-color-1 solid;
+    border-bottom: 1px $brand-color-1 solid;
+}
+.list-cont-1{
+    color:#00223D !important;
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+.list-cont-1::marker{
+    color:#00223D !important;
+}
