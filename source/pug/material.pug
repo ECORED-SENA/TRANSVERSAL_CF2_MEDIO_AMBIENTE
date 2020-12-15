@@ -36,18 +36,24 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Actividad productiva', '#tema-1')
-                                    +navTemaItem('2', 'Herramientas para el procesamiento de datos y metodología estadística', '#tema-2')
+                                    +navTemaItem('text', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'Legislación en medio ambiente, seguridad y salud en el trabajo', '#tema-1')
+                                    +navTemaItem('2', 'Herramientas para la gestión de la seguridad y salud en el trabajo', '#tema-2')
+                                    +navTemaItem('3', 'Herramientas para la gestión de medio ambiente', '#tema-3')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
+            #introduccion
+                include pages/introduccion.pug
             #tema-1
                 include pages/tema-1.pug
             #tema-2
                 include pages/tema-2.pug
+            #tema-3
+                include pages/tema-3.pug
                                         
             #glosario
                 include pages/glosario.pug
